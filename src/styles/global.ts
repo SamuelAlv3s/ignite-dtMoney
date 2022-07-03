@@ -7,6 +7,7 @@ export const GlobalStyle = createGlobalStyle`
 
     --red: #e52e4d;
     --blue: #5429cc;
+    --green: #33cc95;
 
   --blue-light: #6933ff;
   
@@ -24,6 +25,7 @@ export const GlobalStyle = createGlobalStyle`
 
 
   html {
+    font-family: 'Poppins', sans-serif;
     @media (max-width: 1888px) {
       font-size: 93.75%; 
     }
